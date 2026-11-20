@@ -4,20 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.luminate.keyboard"
+    namespace = "com.abdullah.keyboard"
     compileSdk = 34
-
     defaultConfig {
-        applicationId = "com.luminate.keyboard"
+        applicationId = "com.abdullah.keyboard"
         minSdk = 24
         targetSdk = 34
         versionCode = 2
         versionName = "1.1"
     }
-
-    buildTypes {
-        release { isMinifyEnabled = false }
-    }
+    buildTypes { release { isMinifyEnabled = false } }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
